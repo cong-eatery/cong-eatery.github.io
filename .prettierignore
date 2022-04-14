@@ -94,3 +94,14 @@ sw.*
 
 # Vim swap files
 *.swp
+.eslintrc.js
+.github/workflows/ci.yml
+components/NuxtLogo.vue
+components/Tutorial.vue
+content/hello.md
+jest.config.js
+nuxt.config.js
+package.json
+pages/index.vue
+README.md
+tsconfig.json
