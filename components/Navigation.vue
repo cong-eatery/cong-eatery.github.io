@@ -22,16 +22,5 @@ export default {
     components: [
         Logo
     ],
-    methods: {
-        food() {
-            console.log("Open food PDF!");
-        },
-        drink() {
-            console.log("Open drink PDF!");
-        },
-        about() {
-            console.log("Open about..");
-        },
-    }
 }
 </script>

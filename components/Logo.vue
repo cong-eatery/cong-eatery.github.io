@@ -1,6 +1,7 @@
 <template>
   <div>
-    <img class="cong-logo" 
+    <img
+      class="cong-logo" 
       :src="hover ? '/shark.jpeg' : 'squid.jpeg'" 
       @mouseover="hover = true"
       @mouseleave="hover = false"
