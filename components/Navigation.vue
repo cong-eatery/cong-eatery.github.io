@@ -1,7 +1,7 @@
 <template>
   <div class="my-2 gap-28">
     <div class="font-mono justify-center text-center">
-      <h1 class="text-8xl font-sans font-bold mb-7 uppercase">cong</h1>
+      <h1 class="text-9xl font-sans font-bold mb-7 uppercase title">cong</h1>
 
       <Logo class="flex justify-center items-center mb-5" />
 
@@ -30,3 +30,27 @@ export default {
   components: [Logo],
 }
 </script>
+
+<style>
+
+.title {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInRight;
+} 
+
+@keyframes fadeInRight {
+   0% {
+      opacity: 0;
+      transform: translateX(100px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}   
+
+</style>
