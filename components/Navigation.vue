@@ -32,7 +32,6 @@ export default {
 </script>
 
 <style>
-
 .title {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -40,17 +39,16 @@ export default {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInRight;
-} 
+}
 
 @keyframes fadeInRight {
-   0% {
-      opacity: 0;
-      transform: translateX(100px);
-   }
-   100% {
-      opacity: 1;
-      transform: translateX(0);
-   }
-}   
-
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 </style>
