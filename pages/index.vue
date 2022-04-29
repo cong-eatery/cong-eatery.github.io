@@ -9,20 +9,20 @@ export default Vue.extend({
     name: 'IndexPage',
     data() {
         return {
-            show: false
+            show: true
         }
     },
-    mounted() {
-        window.addEventListener('load', () => {
-            this.show = true;
-        });
-        document.onreadystatechange = () => {
-            if (document.readyState === "complete") {
-                this.show = true;
-            }
-        }
+    // mounted() {
+    //     window.addEventListener('load', () => {
+    //         this.show = true;
+    //     });
+    //     document.onreadystatechange = () => {
+    //         if (document.readyState === "complete") {
+    //             this.show = true;
+    //         }
+    //     }
 
-    }
+    // }
 })
 </script>
   
