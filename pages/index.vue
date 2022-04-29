@@ -1,5 +1,5 @@
 <template>
-    <Start v-show="show" />
+    <Start  />
 </template>
 
 <script lang="ts">
@@ -9,20 +9,12 @@ export default Vue.extend({
     name: 'IndexPage',
     data() {
         return {
-            show: true
+            show: false
         }
     },
-    // mounted() {
-    //     window.addEventListener('load', () => {
-    //         this.show = true;
-    //     });
-    //     document.onreadystatechange = () => {
-    //         if (document.readyState === "complete") {
-    //             this.show = true;
-    //         }
-    //     }
-
-    // }
+    created() {
+        this.show = true;
+    }
 })
 </script>
   

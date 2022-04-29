@@ -22,10 +22,14 @@ export default {
 </script>
 
 <style>
-.cong-logo img {
-    overflow: hidden;
+.cong-logo {
     max-height: 400px;
+    min-height: 400px;
     height: 100%;
+}
+
+.cong-logo img {
+    max-height: 400px;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -41,7 +45,7 @@ export default {
     }
     100% {
         opacity: 1;
-        transform: initial;
+        transform: translateX(0);
     }
 }
 </style>

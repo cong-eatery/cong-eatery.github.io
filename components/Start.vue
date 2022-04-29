@@ -5,10 +5,8 @@
             href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
             rel="stylesheet"
         />
-        <div class="w-full relative flex flex-col">
-            <header
-                class="flex sticky top-0 w-full flex-row-reverse border-b px-3 sm:px-3"
-            >
+        <div class="w-full flex flex-col">
+            <header class="flex w-full flex-row-reverse border-b px-3 sm:px-3">
                 <ul class="flex my-2 gap-2 list-discs">
                     <li class="flex-1">
                         <a
