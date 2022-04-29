@@ -1,16 +1,16 @@
 <template>
   <div class="my-2 gap-28">
     <div class="font-mono justify-center text-center">
-      <h1 class="text-9xl font-sans font-bold mb-7 uppercase title">cong</h1>
+      <h1 class="text-8xl ms:text-9xl font-sans font-bold mb-7 uppercase title">cong</h1>
 
       <Logo class="flex justify-center items-center mb-5" />
 
       <ul class="text-2xl">
         <li class="inline-block underline mr-2">
-          <a href="#" @click="food">Food</a>
+          <a href="#">Food</a>
         </li>
         <li class="inline-block underline mr-2">
-          <a href="#" @click="drink">Drink</a>
+          <a href="#">Drink</a>
         </li>
         <li class="inline-block underline">
           <a href="https://goo.gl/maps/EgkvLDNcH7Gb2SBdA" target="_blank"

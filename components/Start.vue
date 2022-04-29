@@ -27,7 +27,7 @@
         <Navigation />
       </content>
       <footer
-        class="justify-end sticky bottom-0 w-full md:flex md:justify-between uppercase"
+        class="w-full md:flex md:justify-between uppercase"
       >
         <ul class="py-7 md:py-2 text-l md:text-2xl border-t px-3 sm:pl-3">
           <li class="md:inline-block mr-3"><strong>MON:</strong> ZzZ</li>

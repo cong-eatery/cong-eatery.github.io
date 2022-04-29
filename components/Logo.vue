@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="cong-logo">
     <img
-      class="cong-logo"
+      class="px-6"
       :src="hover ? '/octopot.jpg' : '/octofool.jpg'"
       @mouseover="hover = true"
       @mouseleave="hover = false"
@@ -21,8 +21,13 @@ export default {
 }
 </script>
 <style>
-.cong-logo {
-  height: 400px;
+
+
+
+.cong-logo img {
+  overflow: hidden;
+  max-height: 400px;
+  height: 100%;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -38,7 +43,7 @@ export default {
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: initial;
   }
 }
 </style>

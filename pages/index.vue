@@ -16,6 +16,13 @@ export default Vue.extend({
     window.addEventListener('load', () => {
         this.show = true;
     });
+    document.onreadystatechange = () => { 
+        if (document.readyState === "complete") { 
+            this.show = true;
+        } 
+    }
+    
   }
 })
 </script>
+  
