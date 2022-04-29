@@ -1,5 +1,4 @@
 {
-  "semi": false,
-  "singleQuote": true,
-  "indentSize": 4
+    "semi": false,
+    "singleQuote": true
 }

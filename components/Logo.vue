@@ -15,7 +15,7 @@ export default {
     name: 'Logo',
     data() {
         return {
-        hover: false,
+            hover: false,
         }
     },
 }
