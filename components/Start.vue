@@ -1,10 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
     <div class="relative flex items-top justify-center min-h-screen border">
-        <link
-            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-            rel="stylesheet"
-        />
         <div class="w-full flex flex-col">
             <header class="flex w-full flex-row-reverse border-b px-3 sm:px-3">
                 <ul class="flex my-2 gap-2 list-discs">

@@ -1,5 +1,5 @@
 <template>
-    <Start  />
+    <Start v-show="show" />
 </template>
 
 <script lang="ts">
@@ -12,9 +12,13 @@ export default Vue.extend({
             show: false
         }
     },
-    created() {
+    mounted() {
         this.show = true;
     }
 })
 </script>
+
+<style>
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+</style>
   
