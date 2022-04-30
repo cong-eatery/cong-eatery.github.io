@@ -1,6 +1,8 @@
 <template>
-    <div class="my-2 gap-28">
-        <div class="font-mono justify-center text-center">
+    <div class="my-2">
+        <div
+            class="font-mono justify-center text-center overflow-hidden"
+        >
             <h1
                 class="text-8xl ms:text-9xl font-sans font-bold mb-7 uppercase title"
             >
