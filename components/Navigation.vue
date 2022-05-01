@@ -39,12 +39,12 @@ export default {
 
 <style>
 .title {
-    -webkit-animation-duration: 1s;
+    /* -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInRight;
+    animation-name: fadeInRight; */
 }
 
 @keyframes fadeInRight {

@@ -30,12 +30,12 @@ export default {
 
 .cong-logo img {
     max-height: 400px;
-    -webkit-animation-duration: 1s;
+    /* -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
+    animation-name: fadeInLeft; */
 }
 
 @keyframes fadeInLeft {
