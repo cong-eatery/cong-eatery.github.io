@@ -33,7 +33,10 @@
                         <strong>TUE-THU:</strong> 17:00 - 23:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>FRI:</strong> 17:00-00:30
+                        <strong>FRI-SAT:</strong> 17:00-00:30
+                    </li>
+                    <li class="md:inline-block mr-3">
+                        <strong>SUN:</strong> ZzZ
                     </li>
                 </ul>
                 <p
