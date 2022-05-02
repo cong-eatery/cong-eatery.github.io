@@ -54,6 +54,11 @@ jobs:
       - name: Generate
         run: yarn generate
 
+      - name: Setup CNAME record (for github pages to work)
+        run: |
+          cat << EOF > ./dist/CNAME
+          cong.se
+          EOF
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
