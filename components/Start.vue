@@ -12,10 +12,18 @@
                         >
                     </li>
                     <li class="flex-1">
-                        <a href="#FACEBOOK">fb</a>
+                        <a 
+                            href="https://www.facebook.com/congstockholm" 
+                            target="_blank"
+                            >fb</a
+                        >
                     </li>
                     <li class="flex-1">
-                        <a href="#TIKTOK">tiktok</a>
+                        <a 
+                            href="https://www.tiktok.com/@congstockholm" 
+                            target="_blank"
+                            >tiktok</a
+                        >
                     </li>
                 </ul>
             </header>
@@ -27,16 +35,16 @@
                     class="py-7 md:py-2 text-l md:text-2xl border-t px-3 sm:pl-3"
                 >
                     <li class="md:inline-block mr-3">
-                        <strong>MON:</strong> ZzZ
+                        <strong>MON-TUE:</strong> 16:00-22:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>TUE-THU:</strong> 17:00 - 23:00
+                        <strong>FRI-THU:</strong> 16:00-23:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>FRI-SAT:</strong> 17:00-00:30
+                        <strong>FRI-SAT:</strong> 14:00-00:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>SUN:</strong> ZzZ
+                        <strong>SUN:</strong> CLOSED
                     </li>
                 </ul>
                 <p

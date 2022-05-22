@@ -7,16 +7,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cong-eatery',
+    title: 'Cong - Social eating & drinking',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Cong - Social eating & drinking' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' }
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 

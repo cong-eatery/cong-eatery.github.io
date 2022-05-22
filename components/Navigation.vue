@@ -18,7 +18,7 @@
                 </li>
                 <li class="inline-block underline">
                     <a
-                        href="https://goo.gl/maps/EgkvLDNcH7Gb2SBdA"
+                        href="https://goo.gl/maps/khezqsjxGnsNzqx6A"
                         target="_blank"
                         >Find us</a
                     >
