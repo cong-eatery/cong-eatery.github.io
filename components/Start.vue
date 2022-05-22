@@ -12,15 +12,15 @@
                         >
                     </li>
                     <li class="flex-1">
-                        <a 
-                            href="https://www.facebook.com/congstockholm" 
+                        <a
+                            href="https://www.facebook.com/congstockholm"
                             target="_blank"
                             >fb</a
                         >
                     </li>
                     <li class="flex-1">
-                        <a 
-                            href="https://www.tiktok.com/@congstockholm" 
+                        <a
+                            href="https://www.tiktok.com/@congstockholm"
                             target="_blank"
                             >tiktok</a
                         >
