@@ -2,7 +2,7 @@
     <div class="cong-logo">
         <img
             class="px-6"
-            :src="hover ? '/octodrunk.jpg' : '/octofool.jpg'"
+            :src="hover ? '/octofool.jpg' : '/octodrunk.jpg'"
             @mouseover="hover = true"
             @mouseleave="hover = false"
         />
