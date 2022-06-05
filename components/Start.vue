@@ -38,7 +38,7 @@
                         <strong>MON-TUE:</strong> 16:00-22:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>FRI-THU:</strong> 16:00-23:00
+                        <strong>WED-THU:</strong> 16:00-23:00
                     </li>
                     <li class="md:inline-block mr-3">
                         <strong>FRI-SAT:</strong> 14:00-00:00
