@@ -28,7 +28,11 @@
                 </ul>
             </header>
             <content class="flex-grow flex justify-center items-center">
-                <Navigation />
+                <div>
+                    <Navigation class="my-10" />
+                    <AvailableSeats />
+
+                </div>
             </content>
             <footer class="w-full md:flex md:justify-between uppercase">
                 <ul
@@ -63,9 +67,10 @@
 
 <script>
 import Navigation from './Navigation'
+import AvailableSeats from './AvailableSeats'
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Start',
-    components: [Navigation],
+    components: [Navigation, AvailableSeats],
 }
 </script>

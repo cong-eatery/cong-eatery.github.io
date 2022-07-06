@@ -2,10 +2,9 @@
     <Start v-show="show" />
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 
-export default Vue.extend({
+export default {
     name: 'IndexPage',
     data() {
         return {
@@ -15,7 +14,7 @@ export default Vue.extend({
     mounted() {
         this.show = true;
     }
-})
+}
 </script>
 
   

@@ -45,6 +45,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/firebase',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -65,5 +66,29 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  firebase: {
+    config: {
+      apiKey: "AIzaSyCIqIpIH34ByAecRi7Y142GztOepm2bIJk",
+      authDomain: "cong-dc0b2.firebaseapp.com",
+      projectId: "cong-dc0b2",
+      storageBucket: "cong-dc0b2.appspot.com",
+      messagingSenderId: "628194541138",
+      appId: "1:628194541138:web:ccfd853226c8428272a98b",
+      measurementId: "G-TZT3WWYCXE"
+    },
+    services: {
+      auth: true,
+      firestore: true // Just as example. Can be any other service.
+    }
+  },
+
+  services: {
+    firestore: {
+      memoryOnly: false,
+      enablePersistence: true,
+      emulatorPort: 8080,
+    },
+  },
 }
