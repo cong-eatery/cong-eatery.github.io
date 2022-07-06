@@ -31,7 +31,6 @@
                 <div>
                     <Navigation class="my-10" />
                     <AvailableSeats />
-
                 </div>
             </content>
             <footer class="w-full md:flex md:justify-between uppercase">

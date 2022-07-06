@@ -1,20 +1,26 @@
 <template>
-    <div v-if="available != null" class="text-2xl font-mono justify-center text-center overflow-hidden">
-        Seats available right now:  <span class="text-4  xl">{{ available }}</span>
+    <div
+        v-if="enabled"
+        class="text-2xl font-mono justify-center text-center overflow-hidden"
+    >
+        Seats available right now:
+        <span class="text-4 xl">{{ available }}</span>
     </div>
 </template>
 
-<script>        
+<script>
 export default {
-    // eslint-disable-next-line vue/multi-word-component-names
-    name: 'AvailableSeats', 
+    name: 'AvailableSeats',
     data() {
         return {
             available: null,
+            enabled: false,
         }
     },
-    async mounted () {
-        const messageRef = this.$fire.firestore.collection('seats-available').doc('current')
+    async mounted() {
+        const messageRef = this.$fire.firestore
+            .collection('seats-available')
+            .doc('current')
         try {
             const snapshot = await messageRef.get()
             const doc = snapshot.data()
@@ -22,9 +28,10 @@ export default {
                 alert('Document does not exist.')
                 return
             }
-            this.available = doc.available;
+            this.available = doc.available
+            this.enabled = doc.enabled
         } catch (e) {
-            alert(e)    
+            alert(e)
         }
     },
 }
