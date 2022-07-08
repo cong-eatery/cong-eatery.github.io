@@ -1,8 +1,7 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
-  // Target: https://go.nuxtjs.dev/config-target
+  // Target: https://go.nuxtjs.dev/config-targ  et
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -61,6 +60,10 @@ export default {
     }
   },
 
+  router: {
+    middleware: 'router-auth'
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
@@ -79,16 +82,19 @@ export default {
       measurementId: "G-TZT3WWYCXE"
     },
     services: {
-      auth: true,
-      firestore: true // Just as example. Can be any other service.
+      firestore: {
+        memoryOnly: false,
+        enablePersistence: true,
+      },
+      auth:{
+        persistence: 'session', // default
+        initialize: {
+          onAuthStateChangedMutation: 'auth/ON_AUTH_STATE_CHANGED_MUTATION',
+          subscribeManually: false
+        },
+        ssr: false, // default
+      },
     }
   },
 
-  services: {
-    firestore: {
-      memoryOnly: false,
-      enablePersistence: true,
-      emulatorPort: 8080,
-    },
-  },
 }

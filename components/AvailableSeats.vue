@@ -25,14 +25,11 @@ export default {
             const snapshot = await messageRef.get()
             const doc = snapshot.data()
             if (!doc) {
-                alert('Document does not exist.')
                 return
             }
             this.available = doc.available
             this.enabled = doc.enabled
-        } catch (e) {
-            alert(e)
-        }
+        } catch (e) {}
     },
 }
 </script>
