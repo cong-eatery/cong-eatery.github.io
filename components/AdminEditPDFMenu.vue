@@ -1,5 +1,5 @@
 <template>
-    <div class="py-2 px-4">
+    <div v-if="storage" class="py-2 px-4">
         <div class="flex">
             <div
                 class="block p-6 rounded-lg shadow-lg bg-white max-w-sm flex flex-col items-center"
