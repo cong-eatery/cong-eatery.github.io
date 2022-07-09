@@ -94,6 +94,7 @@ export default {
         },
         ssr: false, // default
       },
+      storage: true,
     }
   },
 

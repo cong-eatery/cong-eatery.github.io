@@ -10,11 +10,11 @@
             <Logo class="flex justify-center items-center mb-5" />
 
             <ul class="text-2xl">
-                <li class="inline-block underline mr-2">
-                    <a href="#">Food</a>
+                <li class="inline-block underline mr-2 cursor-pointer">
+                    <a @click="openLink('food/')">Food</a>
                 </li>
-                <li class="inline-block underline mr-2">
-                    <a href="#">Drink</a>
+                <li class="inline-block underline mr-2 cursor-pointer">
+                    <a @click="openLink('drink/')">Drink</a>
                 </li>
                 <li class="inline-block underline">
                     <a
@@ -29,11 +29,38 @@
 </template>
 
 <script>
+import { getStorage, ref, list, getDownloadURL } from 'firebase/storage'
 import Logo from './Logo'
+
+const getPDFUrl = async (baseUrl) => {
+    const storage = getStorage()
+    try {
+        const data = await list(ref(storage, baseUrl))
+        const currentFile = data.items[0]
+        if (currentFile) {
+            try {
+                const value = await getDownloadURL(
+                    ref(storage, currentFile.fullPath)
+                )
+                return value
+            } catch {}
+        }
+    } catch {}
+    return null
+}
+
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Navigation',
     components: [Logo],
+    methods: {
+        async openLink(base) {
+            const url = await getPDFUrl(base)
+            if (url) {
+                window.open(url)
+            }
+        },
+    },
 }
 </script>
 
