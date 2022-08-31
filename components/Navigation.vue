@@ -8,13 +8,12 @@
             </h1>
 
             <Logo class="flex justify-center items-center mb-5" />
-
             <ul class="text-2xl">
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a @click="openLink('food/')">Food</a>
+                    <a :href="foodLink" target="_blank">Food</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a @click="openLink('drink/')">Drink</a>
+                    <a :href="drinkLink" target="_blank">Drink</a>
                 </li>
                 <li class="inline-block underline">
                     <a
@@ -53,6 +52,16 @@ export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Navigation',
     components: [Logo],
+    async beforeMount() {
+        this.foodLink = await getPDFUrl("/food");
+        this.drinkLink = await getPDFUrl("/drink");
+    },
+    data() {
+        return {
+            foodLink: "",
+            drinkLink: ""
+        }
+    },
     methods: {
         async openLink(base) {
             const url = await getPDFUrl(base)
