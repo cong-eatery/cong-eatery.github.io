@@ -52,15 +52,15 @@ export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Navigation',
     components: [Logo],
-    async beforeMount() {
-        this.foodLink = await getPDFUrl("/food");
-        this.drinkLink = await getPDFUrl("/drink");
-    },
     data() {
         return {
             foodLink: "",
             drinkLink: ""
         }
+    },
+    async beforeMount() {
+        this.foodLink = await getPDFUrl("/food");
+        this.drinkLink = await getPDFUrl("/drink");
     },
     methods: {
         async openLink(base) {
