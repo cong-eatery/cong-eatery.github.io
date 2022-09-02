@@ -54,13 +54,13 @@ export default {
     components: [Logo],
     data() {
         return {
-            foodLink: "",
-            drinkLink: ""
+            foodLink: '',
+            drinkLink: '',
         }
     },
     async beforeMount() {
-        this.foodLink = await getPDFUrl("/food");
-        this.drinkLink = await getPDFUrl("/drink");
+        this.foodLink = await getPDFUrl('/food')
+        this.drinkLink = await getPDFUrl('/drink')
     },
     methods: {
         async openLink(base) {
