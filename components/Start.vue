@@ -38,16 +38,16 @@
                     class="py-7 md:py-2 text-l md:text-2xl border-t px-3 sm:pl-3"
                 >
                     <li class="md:inline-block mr-3">
-                        <strong>MON-TUE:</strong> 16:00-22:00
+                        <strong>TUE-THU:</strong> 16:00-22:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>WED-THU:</strong> 16:00-23:00
+                        <strong>FRI:</strong> 16:00-00:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>FRI-SAT:</strong> 14:00-00:00
+                        <strong>SAT:</strong> 12:00-00:00
                     </li>
                     <li class="md:inline-block mr-3">
-                        <strong>SUN:</strong> CLOSED
+                        <strong>SUN-MON:</strong> CLOSED
                     </li>
                 </ul>
                 <p
