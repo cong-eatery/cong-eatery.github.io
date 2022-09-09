@@ -35,23 +35,36 @@
             </content>
             <footer class="w-full md:flex md:justify-between uppercase">
                 <ul
-                    class="py-7 md:py-2 text-l md:text-2xl border-t px-3 sm:pl-3"
+                    class="py-7 md:py-2 text-l md:text-xl border-t px-3 sm:pl-3"
                 >
-                    <li class="md:inline-block mr-3">
+                    <li class="mr-3">
+                        <strong><u>LUNCH</u></strong>
+                    </li>
+                    <li class="lg:inline-block mr-3">
+                        <strong>TUE-FRI:</strong> 11.30-14.00
+                    </li>
+                </ul>
+                <ul
+                    class="py-7 md:py-2 text-l md:text-xl border-t px-3 sm:pl-3"
+                >
+                    <li class="mr-3">
+                        <strong><u>DINNER</u></strong>
+                    </li>
+                    <li class="lg:inline-block mr-3">
                         <strong>TUE-THU:</strong> 16:00-22:00
                     </li>
-                    <li class="md:inline-block mr-3">
+                    <li class="lg:inline-block mr-3">
                         <strong>FRI:</strong> 16:00-00:00
                     </li>
-                    <li class="md:inline-block mr-3">
+                    <li class="lg:inline-block mr-3">
                         <strong>SAT:</strong> 12:00-00:00
                     </li>
-                    <li class="md:inline-block mr-3">
+                    <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
                     </li>
                 </ul>
                 <p
-                    class="py-7 md:py-2 uppercase text-l md:text-2xl font-bold border-t px-3 sm:pr -3"
+                    class="py-7 md:py-2 uppercase text-l md:text-xl font-bold border-t px-3 sm:pr -3"
                 >
                     <a
                         href="https://goo.gl/maps/EgkvLDNcH7Gb2SBdA"
