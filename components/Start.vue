@@ -38,23 +38,13 @@
                     class="py-7 md:py-2 text-l md:text-xl border-t px-3 sm:pl-3"
                 >
                     <li class="mr-3">
-                        <strong><u>LUNCH</u></strong>
+                        <strong><u>OPENING HOURS</u></strong>
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>TUE-FRI:</strong> 11.00-14.00
-                    </li>
-                </ul>
-                <ul
-                    class="py-7 md:py-2 text-l md:text-xl border-t px-3 sm:pl-3"
-                >
-                    <li class="mr-3">
-                        <strong><u>DINNER</u></strong>
+                        <strong>TUE-FRI:</strong> 11:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>TUE-FRI:</strong> 15:00-22:00
-                    </li>
-                    <li class="lg:inline-block mr-3">
-                        <strong>SAT:</strong> 12:00-00:00
+                        <strong>SAT:</strong> 12:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
