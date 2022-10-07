@@ -18,8 +18,8 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: '/fonts.css' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', type: 'text/css', href: './fonts.css' },
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
 
