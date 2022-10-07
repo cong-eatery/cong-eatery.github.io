@@ -3,10 +3,17 @@ export default {
   ssr: false,
   // Target: https://go.nuxtjs.dev/config-targ  et
   target: 'static',
+  generate: {
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true })
+        .where({ extension: { $eq: '.md' } })
+        .only(['path']).fetch()
 
-  nitro: {
-    preset: 'service-worker'
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
   },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Cong - Vietnamese food & bar',
