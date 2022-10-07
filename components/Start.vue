@@ -51,7 +51,7 @@
                     </li>
                     
                     <li class="lg:inline-block mr-3">
-                        <a href="mailto:hello@cong.se">hello@cong.se</a>
+                        TEST!
                     </li>
                     
                 
