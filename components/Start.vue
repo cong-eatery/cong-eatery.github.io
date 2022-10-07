@@ -58,6 +58,7 @@
                         target="_blank"
                         >Stockholm, Kornhamnstorg 51, 111 27</a
                     >
+                 <a href="mailto:hello@cong.se">hello@cong.se</a>
                 </p>
             </footer>
         </div>
