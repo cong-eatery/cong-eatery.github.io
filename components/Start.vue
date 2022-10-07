@@ -49,6 +49,12 @@
                     <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
                     </li>
+                    
+                    <li class="lg:inline-block mr-3">
+                        <a href="mailto:hello@cong.se">hello@cong.se</a>
+                    </li>
+                    
+                
                 </ul>
                 <p
                     class="py-7 md:py-2 uppercase text-l md:text-xl font-bold border-t px-3 sm:pr -3"
@@ -58,7 +64,7 @@
                         target="_blank"
                         >Stockholm, Kornhamnstorg 51, 111 27</a
                     >
-                 <a href="mailto:hello@cong.se">hello@cong.se</a>
+                
                 </p>
             </footer>
         </div>
