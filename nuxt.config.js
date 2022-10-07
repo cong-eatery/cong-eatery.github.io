@@ -4,6 +4,9 @@ export default {
   // Target: https://go.nuxtjs.dev/config-targ  et
   target: 'static',
 
+  nitro: {
+    preset: 'service-worker'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Cong - Vietnamese food & bar',

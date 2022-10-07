@@ -16,7 +16,7 @@
                     <a :href="foodLink" target="_blank">Menu</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a href="/about">About us</a>
+                    <a :href="drinkLink">Drink</a>
                 </li>
                 <li class="inline-block underline">
                     <a
