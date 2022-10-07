@@ -1,5 +1,9 @@
 <template>
-    <Start v-show="show" />
+    <Layout v-show="show">
+        <div>
+            <AvailableSeats />
+        </div>
+    </Layout>
 </template>
 
 <script>

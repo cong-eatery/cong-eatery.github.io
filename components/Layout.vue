@@ -27,16 +27,18 @@
                     </li>
                 </ul>
             </header>
+            <Navigation
+                class="my-10 flex-grow flex justify-center items-center"
+            />
             <content class="flex-grow flex justify-center items-center">
-                <div>
-                    <Navigation class="my-10" />
-                    <AvailableSeats />
+                <div class="max-w-xl mb-10">
+                    <slot></slot>
                 </div>
             </content>
-            <footer class="w-full md:flex md:justify-between uppercase">
-                <ul
-                    class="py-7 md:py-2 text-l md:text-xl border-t px-3 sm:pl-3"
-                >
+            <footer
+                class="w-full md:flex md:justify-between uppercase border-t"
+            >
+                <ul class="py-7 md:py-2 text-l md:text-xl px-3 sm:pl-3">
                     <li class="mr-3">
                         <strong><u>OPENING HOURS</u></strong>
                     </li>
@@ -49,29 +51,33 @@
                     <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
                     </li>
-                          
                 </ul>
-                <p
-                    class="py-7 md:py-2 uppercase text-l md:text-xl font-bold border-t px-3 sm:pr -3"
+                <ul
+                    class="py-7 md:py-2 uppercase text-l md:text-xl px-3 sm:pr-3 border-t md:border-none"
                 >
-                    <a
-                        href="https://goo.gl/maps/EgkvLDNcH7Gb2SBdA"
-                        target="_blank"
-                        >Stockholm, Kornhamnstorg 51, 111 27</a
-                    >
-                
-                </p>
+                    <li class="font-bold">
+                        <a
+                            href="https://goo.gl/maps/EgkvLDNcH7Gb2SBdA"
+                            target="_blank"
+                            >Stockholm, Kornhamnstorg 51, 111 27</a
+                        >
+                    </li>
+                    <li><a href="mailto:hello@cong.se">hello@cong.se</a></li>
+                    <li class="font-bold">
+                        <a href="tel:+468233210">08-23 32 10</a>
+                    </li>
+                </ul>
             </footer>
         </div>
     </div>
 </template>
 
 <script>
-import Navigation from './Navigation'
 import AvailableSeats from './AvailableSeats'
+import Navigation from './Navigation'
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: 'Start',
+    name: 'Layout',
     components: [Navigation, AvailableSeats],
 }
 </script>
