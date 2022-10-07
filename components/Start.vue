@@ -49,12 +49,7 @@
                     <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
                     </li>
-                    
-                    <li class="lg:inline-block mr-3">
-                        TEST!
-                    </li>
-                    
-                
+                          
                 </ul>
                 <p
                     class="py-7 md:py-2 uppercase text-l md:text-xl font-bold border-t px-3 sm:pr -3"
