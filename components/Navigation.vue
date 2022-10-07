@@ -16,8 +16,7 @@
                     <a :href="foodLink" target="_blank">Menu</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <NuxtLink to="/about">About Us</NuxtLink>
-                    <!-- <a :href="drinkLink">Drink</a> -->
+                    <a :href="drinkLink">Drink</a>
                 </li>
                 <li class="inline-block underline">
                     <a
