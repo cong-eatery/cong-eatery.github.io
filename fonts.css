@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Matter Bold';
+    src: url(Matter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Matter Mono Regular';
+    src: url(MatterMono-Regular.ttf);
+}
+
+* {
+    font-family: 'Matter Mono Regular';
+}
+
+strong {
+    font-family: 'Matter Bold';
+}
