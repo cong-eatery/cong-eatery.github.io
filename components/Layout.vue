@@ -43,10 +43,13 @@
                         <strong><u>OPENING HOURS</u></strong>
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>TUE-FRI:</strong> 11:00-22:00
+                        <strong>TUE-THU:</strong> 11:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>SAT:</strong> 12:00-22:00
+                        <strong>FRI:</strong> 11:00-23:00
+                    </li>
+                    <li class="lg:inline-block mr-3">
+                        <strong>SAT:</strong> 12:00-23:00
                     </li>
                     <li class="lg:inline-block mr-3">
                         <strong>SUN-MON:</strong> CLOSED
