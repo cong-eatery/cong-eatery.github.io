@@ -16,7 +16,7 @@
                     <a :href="lunchLink" target="_blank">Lunch</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a :href="dinnerLink">Dinner</a>
+                    <a :href="dinnerLink" target="_blank">Dinner</a>
                 </li>
                 <li class="inline-block underline">
                     <a
