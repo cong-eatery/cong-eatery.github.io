@@ -13,10 +13,10 @@
             </a>
             <ul class="text-2xl">
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a :href="foodLink" target="_blank">Menu</a>
+                    <a :href="lunchLink" target="_blank">Lunch</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a :href="drinkLink">Drink</a>
+                    <a :href="dinnerLink">Dinner</a>
                 </li>
                 <li class="inline-block underline">
                     <a
@@ -58,13 +58,13 @@ export default {
     },
     data() {
         return {
-            foodLink: '',
-            drinkLink: '',
+            lunchLink: '',
+            dinnerLink: '',
         }
     },
     async beforeMount() {
-        this.foodLink = await getPDFUrl('/food')
-        this.drinkLink = await getPDFUrl('/drink')
+        this.lunchLink = await getPDFUrl('/food')
+        this.dinnerLink = await getPDFUrl('/drink')
     },
     methods: {
         async openLink(base) {

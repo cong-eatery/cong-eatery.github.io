@@ -3,8 +3,8 @@
         <AdminNavigation />
         <div class="sm:flex">
             <AdminEditAvailableSeats />
-            <AdminEditPDFMenu base-location="food/" title="Food Menu" />
-            <AdminEditPDFMenu base-location="drink/" title="Drink Menu" />
+            <AdminEditPDFMenu base-location="food/" title="LUNCH" />
+            <AdminEditPDFMenu base-location="drink/" title="DINNER" />
         </div>
     </div>
 </template>
