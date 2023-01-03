@@ -69,7 +69,7 @@
 
 <script>
 export default {
-    name: 'EditAvailableSeats',
+    name: 'EditAvailableSeatsComponent',
     data() {
         return {
             currentData: {

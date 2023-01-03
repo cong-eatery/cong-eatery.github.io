@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'Matter SQ Bold';
+    src: url(MatterSQ-Bold.ttf);
+}
+
+@font-face {
     font-family: 'Matter Mono Regular';
     src: url(MatterMono-Regular.ttf);
 }

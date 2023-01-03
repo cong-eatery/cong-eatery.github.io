@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: 'AvailableSeats',
+    name: 'AvailableSeatsComponent',
     data() {
         return {
             available: null,

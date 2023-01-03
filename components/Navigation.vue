@@ -5,8 +5,8 @@
                 <h1 class="text-8xl ms:text-9xl font-bold mb-7 uppercase title">
                     cong
                 </h1>
-                <h2 class="text-3xl ms:text-4xl mb-7 font-bold uppercase title">
-                    Vietnamese food & bar
+                <h2 class="text-3xl ms:text-4xl mb-7 font-bold uppercase">
+                    Vietnamese street food
                 </h2>
 
                 <Logo class="flex justify-center items-center mb-5" />
@@ -52,9 +52,10 @@ const getPDFUrl = async (baseUrl) => {
 }
 
 export default {
-    // eslint-disable-next-line vue/multi-word-component-names
-    name: 'Navigation',
-    components: [Logo],
+    name: 'NavigationComponent',
+    components: {
+        Logo,
+    },
     data() {
         return {
             foodLink: '',
@@ -78,6 +79,7 @@ export default {
 
 <style>
 .title {
+    font-family: 'Matter SQ Bold';
     /* -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;

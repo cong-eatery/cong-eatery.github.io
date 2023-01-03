@@ -71,7 +71,7 @@ import {
 } from 'firebase/storage'
 
 export default {
-    name: 'AdminEditPDFMenu',
+    name: 'AdminEditPDFMenuComponent',
     props: {
         baseLocation: {
             required: true,

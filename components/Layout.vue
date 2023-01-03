@@ -76,11 +76,11 @@
 </template>
 
 <script>
-import AvailableSeats from './AvailableSeats'
 import Navigation from './Navigation'
 export default {
-    // eslint-disable-next-line vue/multi-word-component-names
-    name: 'Layout',
-    components: [Navigation, AvailableSeats],
+    name: 'LayoutComponent',
+    components: {
+        Navigation,
+    },
 }
 </script>

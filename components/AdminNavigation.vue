@@ -34,7 +34,7 @@
 
 <script>
 export default {
-    name: 'AdminNavigation',
+    name: 'AdminNavigationComponent',
     methods: {
         logout() {
             this.$store.dispatch('auth/signOut')
