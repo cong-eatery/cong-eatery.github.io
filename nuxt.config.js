@@ -16,11 +16,11 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Cong - Vietnamese food & bar',
+    title: 'Cong - Vietnamese street food',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Cong - Vietnamese food & bar' },
+      { hid: 'description', name: 'description', content: 'Cong - Vietnamese street food' },
       { name: 'format-detection', content: 'telephone=yes' }
     ],
     link: [
