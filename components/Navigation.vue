@@ -25,6 +25,9 @@
                         >Find us</a
                     >
                 </li>
+                <li class="inline-block underline mr-2 cursor-pointer">
+                    <a href="/webshop" target="_blank">Webshop</a>
+                </li>
             </ul>
         </div>
     </div>
