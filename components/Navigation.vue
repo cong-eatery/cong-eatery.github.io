@@ -26,7 +26,7 @@
                     >
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a href="/webshop" target="_blank">Webshop</a>
+                    <a href="http://webshop.cong.se" target="_blank">Webshop</a>
                 </li>
             </ul>
         </div>
