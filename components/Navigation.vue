@@ -13,7 +13,7 @@
             </a>
             <ul class="text-2xl">
                 <li class="inline-block underline mr-2 cursor-pointer">
-                    <a :href="lunchLink" target="_blank">Lunch</a>
+                    <a :href="https://pay.mytrivec.com/restaurant/11594/7700876361730" target="_blank">Lunch</a>
                 </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
                     <a :href="dinnerLink" target="_blank">Dinner</a>
