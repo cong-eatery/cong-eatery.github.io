@@ -22,9 +22,6 @@
                 <li class="inline-block underline mr-2 cursor-pointer">
                     <a :href="dinnerLink" target="_blank">Dinner</a>
                 </li>
-                <li class="inline-block underline mr-2 cursor-pointer">
-                    <a href="http://webshop.cong.se" target="_blank">Webshop</a>
-                </li>
                 <li class="inline-block underline">
                     <a
                         href="https://goo.gl/maps/khezqsjxGnsNzqx6A"
