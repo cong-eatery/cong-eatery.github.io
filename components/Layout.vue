@@ -49,7 +49,7 @@
                         <strong>SAT:</strong> 12:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>SUN-MON:</strong> CLOSED
+                        <strong>OPEN</strong> 7 DAYS A WEEK
                     </li>
                 </ul>
                 <ul
