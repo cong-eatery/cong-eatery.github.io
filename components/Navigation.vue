@@ -12,7 +12,13 @@
                 <Logo class="flex justify-center items-center mb-5" />
             </a>
             <ul class="text-2xl">
-              
+                <li class="inline-block underline mr-2 cursor-pointer">
+                    <a
+                        href="https://pay.mytrivec.com/restaurant/11594/7700876361730"
+                        target="_blank"
+                        ></a
+                    >
+                </li>
                 <li class="inline-block underline mr-2 cursor-pointer">
                     <a :href="dinnerLink" target="_blank">Menu</a>
                 </li>
