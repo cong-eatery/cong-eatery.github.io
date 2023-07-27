@@ -43,7 +43,7 @@
                         <strong><u>OPEN 7 DAYS A WEEK</u></strong>
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>MON-FRI:</strong> 11:00-22:00
+                        <strong>MON-FRI:</strong> 16:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
                         <strong>SAT-SUN</strong> 12:00-22:00
