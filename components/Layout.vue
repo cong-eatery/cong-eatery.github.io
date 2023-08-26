@@ -40,13 +40,13 @@
             >
                 <ul class="py-7 md:py-2 text-l md:text-xl px-3 sm:pl-3">
                     <li class="mr-3">
-                        <strong><u>OPEN 7 DAYS A WEEK</u></strong>
+                        <strong><u>OPEN 6 DAYS A WEEK</u></strong>
                     </li>
                     <li class="lg:inline-block mr-3">
                         <strong>MON-FRI:</strong> 16:00-22:00
                     </li>
                     <li class="lg:inline-block mr-3">
-                        <strong>SAT-SUN</strong> 12:00-22:00
+                        <strong>SAT:</strong> 12:00-22:00
                     </li>
                 </ul>
                 <ul
